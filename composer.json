@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "gabordemooij/redbean": "^5.7"
+    }
+}
