@@ -48,6 +48,9 @@
 
         .footer {
             margin-top: 1rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
         }
 
         .nav {
@@ -57,14 +60,14 @@
         }
 
         h1 {
-            font-size: 1.3rem;
+            font-size: 2rem;
             /* font-weight: normal; */
         }
 
         h2 {
             font-size: 1rem;
             font-weight: normal;
-            margin-left: 0.4rem;
+            margin-left: 1.3rem;
         }
     </style>
 </head>
@@ -119,6 +122,7 @@
         </form>
         <div class="footer">
             <a target='_blank' href="https://github.com/nabeelalihashmi/quicksetuptest"> QuickSetupTest on Github </a>
+            <a target="_blank" href='./phpinfo.php'>PHP Info</a>
         </div>
     </div>
 

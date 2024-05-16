@@ -1,13 +1,9 @@
 <?php
 
-var_dump($_REQUEST);
-
 include __DIR__ . "/vendor/autoload.php";
 
 use Exception as GlobalException;
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
 
 use RedBeanPHP\R;
 
@@ -41,7 +37,6 @@ try {
         $EMAIL_RECEIVER_EMAIL = $_REQUEST['email_receiver_email'];
 
         $mail = new PHPMailer(true);
-        //Server settings
         $mail->SMTPDebug = 0;
         $mail->isSMTP();
         $mail->Host       = $EMAIL_HOST;
